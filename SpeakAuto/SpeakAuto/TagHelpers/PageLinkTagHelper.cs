@@ -7,8 +7,8 @@ using SpeakAuto.Models;
 
 namespace SpeakAuto.TagHelpers
 {
-    [HtmlTargetElement("div",Attributes = "page-model")]
-    public class PageLinkTagHelper : TagHelper
+    [HtmlTargetElement("div", Attributes ="page-model")]
+    public class PageLinkTagHelper : TagHelper  
     {
         private IUrlHelperFactory urlHelperFactory;
 

@@ -9,5 +9,6 @@ namespace SpeakAuto.Uitlity
     {
         public const string AdminEndUser = "Admint";
         public const string CustomerEndUser = "Customer";
+        public const int PaginationUsersPageSize = 2;
     }
 }
